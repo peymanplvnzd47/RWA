@@ -1,5 +1,18 @@
 # Simulation Instructions
+Random Graph Generation and RWA ILP Optimization and Heuristic method for solving RWA Problem
+Authors: Rosario, Ale, Peyman 
+Date: June 2024
 
+
+In this script, we have two Heuristic methods for solving RWA Problem and 
+If activate_gurobi = 0 the code of GUROBI will be activated. 
+
+
+
+This script generates a random directed graph and traffic requests for a network. 
+It formulates and solves the Routing and Wavelength Assignment (RWA) problem using 
+Integer Linear Programming (ILP) with Gurobi, incorporates a hop constraint to limit 
+the maximum number of nodes each lightpath can traverse.
 This document provides detailed instructions for setting the input parameters for the simulation. Please follow the guidelines below to ensure the correct configuration.
 
 ## Input Parameters

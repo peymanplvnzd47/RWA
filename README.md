@@ -46,7 +46,18 @@ This document provides detailed instructions for setting the input parameters fo
 
 ## Simulation Execution
 
+
+
 For a single number of nodes and a single number of edges, a graph is determined, and a simulation is run. If `activate_histograms` is not `0`, histograms for channel distribution using the heuristic, first-fit method, and (if `activate_gurobi` is not `0`) Gurobi will be displayed. Regardless, text statistics will be printed at the end of the simulation.
 
 ### Example Output
+
+Total number of requests: 27
+Number of Wavelengths Used First Fit: 4 out of 50
+Number of Wavelengths Used by Heuristic: 4 out of 50
+Number of Wavelengths Used by Gurobi: 4.0 out of 50
+Number of Variables (Gurobi): 17600
+Gurobi time: 47.41000008583069 seconds
+First fit time: 0.001001119613647461 seconds
+Heuristics time: 0.009999275207519531 seconds
 
